@@ -26,7 +26,6 @@ namespace ThriftHelper.NET
 
             var directoryModel = new DirectoryModel(guid);
             directoryModel.FillFromFileSystem(tempPathOut);
-
             return directoryModel;
         }
     }
